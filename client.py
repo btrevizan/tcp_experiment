@@ -11,8 +11,7 @@ def main(args):
         print('Connected with {}'.format(addr))
 
         while True:
-            client_socket.send(b'Dummy message.')
-            sleep(1)
+            client_socket.send(b'Dummy' * 250)  # sending 1250 bytes
 
 
 if __name__ == "__main__":
