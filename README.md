@@ -31,3 +31,9 @@ Example:
 ```bash
 $ python3 client.py -a 127.0.0.1 -p 4003
 ```
+
+## Graphic log
+To run a graphic representation of log files generated, just run:
+```bash
+$ python3 traffic.py
+```
