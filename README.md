@@ -1,5 +1,5 @@
 # TCP Experiment
-Small experiment about TCP congestion control written in Python.
+Small experiment about TCP congestion control and fairness written in Python.
 
 ## Running server.py
 Usage:
