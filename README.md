@@ -37,3 +37,9 @@ To run a graphic representation of log files generated, just run:
 ```bash
 $ python3 traffic.py
 ```
+
+## Install dependencies
+This program uses `matplotlib` and `pandas` to create the graphic log. So, to install this dependencias, just run:
+```bash
+$ pip3 install -r requirements.txt
+```
