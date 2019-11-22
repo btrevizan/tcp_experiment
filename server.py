@@ -11,7 +11,7 @@ def main(args):
 
     with socket(AF_INET, SOCK_STREAM) as server_socket:
 
-        server_socket.bind(('127.0.0.1', args.port))
+        server_socket.bind(('', args.port))
         server_socket.listen()
 
         print('Server active.')
